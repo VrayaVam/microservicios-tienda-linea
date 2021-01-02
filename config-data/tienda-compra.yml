@@ -64,6 +64,6 @@ management:
         
 hystrix:
   dashboard:
-    proxy-stream-allow-list: *        
+    proxyStreamAllowList: *        
 
 
