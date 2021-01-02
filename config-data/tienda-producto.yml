@@ -35,5 +35,16 @@ spring:
         format_sql: false
   logging:
     pattern:
-      console: "%d{yyyy-MM-dd HH:mm:ss} ${LOG_LEVEL_PATTERN:-%5}"  
+      console: "%d{yyyy-MM-dd HH:mm:ss} ${LOG_LEVEL_PATTERN:-%5}" 
+
+#==================================
+#Configuración para eureka
+#==================================
+eureka:
+    client:
+        serviceUrl:
+            defaultZone: http://localhost:8099/eureka/
+
+
+      
         
