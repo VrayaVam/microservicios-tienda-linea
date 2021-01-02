@@ -52,10 +52,6 @@ Feign:
   hystrix:
     enabled: true
     
-
-hystrix:
-  dashboard:
-    proxy-stream-allow-list: *
     
 management:
   endpoints:
