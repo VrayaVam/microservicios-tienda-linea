@@ -55,8 +55,8 @@ management:
   endpoints:
     web:
       exposure:
-        include: *
-    basePath: /
+        include: "*"
+      basePath: /
         
         
 
