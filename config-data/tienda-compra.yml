@@ -46,19 +46,17 @@ eureka:
             defaultZone: http://localhost:8099/eureka/
             
 #==================================
-#Configuración para Hystrix
+#Configuración para Hystrix y Actuactor
 #==================================
 Feign:
-    hystrix:
-        enabled: true
-
-        
-#==================================
-#Configuración para Actuector
-#==================================        
+  hystrix:
+    enabled: true
 management:
-    endpoints:
-        web:
-            exposure:
-                include: "*"
+  endpoints:
+    web:
+      exposure:
+        include: "*"                
+        
+        
+
 
