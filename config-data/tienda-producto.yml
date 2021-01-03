@@ -45,6 +45,13 @@ eureka:
         serviceUrl:
             defaultZone: http://localhost:8099/eureka/
 
-
+#==================================
+#Configuración para actuator
+#==================================           
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
       
         
